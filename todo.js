@@ -89,4 +89,17 @@ const containerItems = [
   containerItems.map((item) => {
     addTaskList(item.title, item.color, item.count, item.id);
   });
+
+  const renderTodoItems = (tittle, color, count, id) => {
+    const container = document.getElementById(state);
+    const listItem = document.createElement("div");
+    text.innerText
+    listItem.setAttribute("class", "listItem")
+    container.appendChild(listItem)
+  };
+  todoData.map((item) => {
+    renderTodoItems(item.title, item.date , item.state)
+  })
+
+  
   
